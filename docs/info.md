@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-It adds the dedicated inputs and io inputs
+It adds the dedicated input to an internal register every clock cycle
+Least significant bits: dedicated output
+Most significant bits: bidirectional output
 
 ## How to test
 
-Put numbers on the input and io input and check leds on output
+Put numbers on the input and see the accumulated value on all the leds
 
 ## External hardware
 
-Switches on dedicated inputs and bidirectionals, leds on outputs
+Switches on inputs, leds on outputs and bidirectionals
