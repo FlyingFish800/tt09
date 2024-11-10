@@ -29,7 +29,7 @@ module tt_um_example (
   end
 
   always @(*) begin
-    if (~rst_n)
+    if (rst_n)
       D = Q + {8'h0, ui_in};
     else 
       D = 0;
